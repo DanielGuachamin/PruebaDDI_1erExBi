@@ -1,0 +1,266 @@
+.header {
+    background-image: url("../images/set-virtual.png");
+    background-repeat: no-repeat;
+}
+
+.fondo-header {
+    background-color: rgba(97, 56, 246, 0.3);
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.menu {
+    justify-content: flex-end;
+    font-size: 15px;
+    background-color: #C3AECD;
+    font-weight: bold;
+}
+
+.menu li{
+    padding: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #6138F6;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #6138F6;
+}
+
+.nav-item button {
+    font-weight: bold;
+    color: #6138F6;
+    border-color: #6138F6;
+}
+
+.nav-item button.active {
+    font-weight: bold;
+    color: white;
+    background-color: #6138F6;
+}
+
+.image-caption {
+    padding: 103px;
+}
+
+.speaker-icon {
+    padding: 20px 0;
+}
+
+.image-caption i {
+    color: white;
+    background-color: #00DEBE;
+    border-radius: 20px;
+    font-size: 20px;
+    border-width: 59px;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 100px;
+    color: #6138F6;
+}
+
+.container h1{
+    color: #6138F6;
+    font-family: unset;
+    font-weight: bold;
+}
+
+.container p {
+    color: #28326B;
+    font-weight: bold;
+}
+
+.section1-descripton {
+    margin-bottom: 100px;
+}
+
+.section1-content-cards {
+    background-image: url("../images/Pastillas.png");
+}
+
+.section1-content-cards .card {
+    width: 18rem;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.section1-content-cards h5 {
+    text-align: center;
+}
+
+.section1-content-cards i {
+    text-align: center;
+}
+
+.section2-Online {
+    overflow-x: scroll;
+    margin-bottom: 100px;
+}
+
+.Envivo1 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("../images/En vivo 1.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.Envivo2 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("../images/En vivo 2.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.Envivo3 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("../images/En vivo 3.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.Envivo4 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("../images/En vivo 4.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.Envivo-title {
+    padding-right: 20px;
+
+}
+
+.Envivo-title h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Envivo-content h6 {
+    font-weight: bold;
+}
+
+.Envivo-content i {
+    font-size: 30px;
+}
+
+.Envivo-content button{
+    color: white;
+    font-family: unset;
+    font-weight: bold;
+    background-color: #6138F6;
+    font-size: 12px;
+}
+
+.image-card {
+    width: 216px;
+    height: auto;
+}
+
+.section3-cards {
+    margin-bottom: 200px;
+}
+
+.section3-content-text1 {
+    background-color: #28326B;
+    padding: 8px 8px 30px;
+    margin: -24px 0 0px 3px;
+    width: 210px;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 115px;
+    box-shadow: 0px 3px 4px 0px grey;
+}
+
+.section3-content-text1 p {
+    color: white;
+    font-size: 14px;
+}
+
+.section3-content-text2 {
+    background-color: #07CAB6;
+    padding: 8px 8px 30px;
+    margin: -24px 0 0px 3px;
+    width: 210px;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 115px;
+    box-shadow: 0px 3px 4px 0px grey;
+}
+
+.section3-content-text2 p {
+    color: #28326B;
+    font-size: 14px;
+}
+
+
+.section4 {
+    margin-bottom: 100px;
+}
+
+.rounded-circle {
+    width: 140px;
+    margin: 10px 50px;
+    border: 3px solid #6138F6;
+}
+
+.section4 .card {
+    padding: 25px;
+    width: 18rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: #6138F6;
+    font-family: unset;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 12px;
+    border-color: #6138F6;
+}
+
+.section4 i{
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #01DEBE;
+    height: 120px;
+}
+
+.footer-image1 {
+    margin: -417px -31px -49px -201px;
+}
+
+.footer-image2 {
+    margin: -381px -110px -200px 644px;
+}
